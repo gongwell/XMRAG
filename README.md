@@ -5,15 +5,7 @@
 
 
 ![image](https://github.com/user-attachments/assets/2b9bf9d9-1f1e-45b3-9461-50323b4f7b7f)
-
-
-
-
-
-
-
-
-关于更多Km的详细介绍请查看https://microsoft.github.io/kernel-memory/
+<br />关于更多Km的详细介绍请查看https://microsoft.github.io/kernel-memory/
 
 
 一、关于各种责任和使用要求说明。
