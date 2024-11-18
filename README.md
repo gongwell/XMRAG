@@ -22,4 +22,8 @@
 
 ## 三、接口说明文档
 
-本项目由重庆埃克斯曼得技术有限公司开发并提供服务。 [https://www.xmindai.cn/](https://www.xmindai.cn/)
+
+## 四、声明
+
+
+## 本项目由重庆埃克斯曼得技术有限公司开发并提供服务。 [https://www.xmindai.cn/](https://www.xmindai.cn/ 
