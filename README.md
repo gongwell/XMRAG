@@ -23,9 +23,9 @@
 
    一、在FastGPT中
 
-   二、在copilot中
+   二、在Copilot中
 
-   三、在chatgpt中
+   三、在Chatgpt中
 
    四、在SK项目中
 
