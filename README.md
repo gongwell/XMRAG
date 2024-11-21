@@ -31,7 +31,7 @@
 
 ## 5. 代码示例
 
-## 1、C#
+## C#
 > ```csharp
 > #r "nuget: Microsoft.KernelMemory.WebClient"
 >
@@ -49,7 +49,7 @@
 >         .AddTag("fiscalYear", "2025"));
 > ``
 
-## 2、Python
+## Python
 
 > ```python
 > import requests
