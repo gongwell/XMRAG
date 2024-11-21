@@ -39,13 +39,7 @@
 > // Import a file
 > await memory.ImportDocumentAsync("meeting-transcript.docx");
 >
-> // Import a file specifying Document ID and Tags
-> await memory.ImportDocumentAsync("business-plan.docx",
->     new Document("doc01")
->         .AddTag("user", "devis@contoso.com")
->         .AddTag("collection", "business")
->         .AddTag("collection", "plans")
->         .AddTag("fiscalYear", "2025"));
+>
 > ``
 
 Python
@@ -57,14 +51,6 @@ Python
 > files = {
 >           "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
 >         }
->
-> # Tags to apply, used by queries to filter memory
-> data = { "documentId": "doc01",
->          "tags": [ "user:devis@contoso.com",
->                    "collection:business",
->                    "collection:plans",
->                    "fiscalYear:2025" ]
->        }
 >
 > response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
 > ```
