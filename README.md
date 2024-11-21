@@ -68,7 +68,8 @@ Python
 
 
 ## 三、声明
- 本项目由重庆埃克斯曼得技术有限公司开发并提供计算服务。
+## 1、本项目不收费
+## 2、本项目由重庆埃克斯曼得技术有限公司开发并提供计算服务。
  [https://www.xmindai.cn/]
  
  ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
