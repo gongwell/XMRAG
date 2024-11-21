@@ -1,4 +1,4 @@
-# 简介
+![logo](https://github.com/user-attachments/assets/5fa63a9a-da4d-489d-84d6-0eb51af2d11a)# 简介
   这是一个开箱机即用的服务接口，满足个人对知识库的使用。此项目基于 Microsoft 的 kernel-memory，是一种多模态 AI 服务，专门用于通过自定义连续数据混合管道对数据集进行高效索引，并支持检索增强生成（RAG）、合成内存、提示工程和自定义语义内存处理上的二次开发。
 
 ![image](https://github.com/user-attachments/assets/2b9bf9d9-1f1e-45b3-9461-50323b4f7b7f)
@@ -27,6 +27,7 @@
 
 
 ## 三、声明
+ 本项目由重庆埃克斯曼得技术有限公司开发并提供计算服务。[https://www.xmindai.cn/]
+ ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
 
-
- （本项目由重庆埃克斯曼得技术有限公司开发并提供计算服务）。[https://www.xmindai.cn/]
+ 
