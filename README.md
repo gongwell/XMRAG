@@ -30,7 +30,7 @@
    四、在SK项目中
 
 # 5. 代码示例
-## C#
+ C#
 > ```csharp
 > #r "nuget: Microsoft.KernelMemory.WebClient"
 >
@@ -48,7 +48,7 @@
 >         .AddTag("fiscalYear", "2025"));
 > ``
 
-## Python
+Python
 
 > ```python
 > import requests
