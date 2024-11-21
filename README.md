@@ -22,7 +22,7 @@
 3. 使用的示例
 
    一、在FastGPT中
-  ![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
+![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
    
   ![屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
 
