@@ -22,12 +22,13 @@
 3. 使用的示例
 
    一、在FastGPT中
-   ![image][屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
-   ![image][屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
+   ![image]![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
+   
+   ![image]![屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
 
-   ![image][屏幕截图 2024-11-21 231310](https://github.com/user-attachments/assets/797d4392-4e2b-40eb-b661-b77c4eb87dc5)
+   ![image]![屏幕截图 2024-11-21 231310](https://github.com/user-attachments/assets/797d4392-4e2b-40eb-b661-b77c4eb87dc5)
 
-   ![image][251c1672f5578ff28558438f41cd93c](https://github.com/user-attachments/assets/80a43b3f-38fc-4f24-9ee8-6b2b3cb646a1)
+   ![image]![251c1672f5578ff28558438f41cd93c](https://github.com/user-attachments/assets/80a43b3f-38fc-4f24-9ee8-6b2b3cb646a1)
 
 
    二、在Copilot中
