@@ -18,7 +18,7 @@
 ## 二、使用说明
 
 1. 首先登陆注册网址 [http://cq.ath.cx:8888/](http://cq.ath.cx:8888/)
-2. 接口说明请查看文档（）
+2. 接口说明请查看文档 [https://github.com/gongwell/XMRAG/blob/main/%E6%8E%A5%E5%8F%A3%E4%BF%A1%E6%81%AF.md]
 3. 使用的示例
 
    一、在FastGPT中
