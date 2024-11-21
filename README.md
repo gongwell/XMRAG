@@ -20,8 +20,15 @@
 1. 首先登陆注册网址 [http://cq.ath.cx:8888/](http://cq.ath.cx:8888/)
 2. 接口说明请查看文档（）
 3. 使用的示例
+   在FastGPT中
+   在copilot中
+   在chatgpt中
+   在SK项目中
 
-4. 代码示例
+5. 代码示例
+   C#
+   Java
+   Python
 
 
 
