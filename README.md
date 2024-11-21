@@ -30,6 +30,7 @@
    四、在SK项目中
 
 # 5. 代码示例
+用户tag会和用户管道绑定，管道会在上传文件时随机产生。
  C#
 > ```csharp
 > #r "nuget: Microsoft.KernelMemory.WebClient"
