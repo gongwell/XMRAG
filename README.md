@@ -69,11 +69,11 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 
 
 ## 三、声明
- 1、本项目不收费
+ 1、本项目绝不收费
 
- 2、联系邮箱xiaohei@xinghanlab.com
+ 2、技术与合作联系邮箱xiaohei@xinghanlab.com
  
- 3、[本项目由重庆埃克斯曼得技术有限公司开发并提供计算服务](https://www.xmindai.cn/)
+ 3、[本项目由重庆埃克斯曼得技术有限公司开发并提供AI、计算服务](https://www.xmindai.cn/)
  
  ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
 
