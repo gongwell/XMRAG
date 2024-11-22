@@ -79,9 +79,9 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
  ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
 
 ## 贡献
-- @azgy 
-- @zsbgnw12
-- @zshandong
-- @googwell
+- ![azgy's avatar](https://github.com/azgy.png) @azgy 
+- ![zsbgnw12's avatar](https://github.com/zsbgnw12.png) @zsbgnw12
+- ![zshandong's avatar](https://github.com/zshandong.png) @zshandong
+- ![googwell's avatar](https://github.com/googwell.png) @googwell
 
  
