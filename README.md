@@ -40,6 +40,8 @@
 
    三、在SK项目中
 
+   https://github.com/microsoft/kernel-memory/blob/main/examples/302-dotnet-sk-km-chat/Program.cs
+
 ## 5. 代码示例
 用户tag会和用户管道绑定，管道会在上传文件时随机产生。
 
