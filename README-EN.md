@@ -1,7 +1,7 @@
 # Introduction
 [中文](https://github.com/gongwell/XMRAG/blob/main/README.md)
 
-This is an out-of-the-box service interface that satisfies personal use of the knowledge base. This project is based on Microsoft's kernel-memory, a multimodal AI service that is dedicated to efficient indexing of datasets through a custom continuous data mixing pipeline, and supports secondary development on retrieval enhancement generation (RAG), synthetic memory, hint engineering, and custom semantic memory processing.
+This is a zero-development, zero-code, zero-construction, out-of-the-box service interface that meets the needs of personal use of the knowledge base. The project is based on Microsoft's kernel-memory, a multi-modal artificial intelligence service dedicated to efficient indexing of data sets through a custom continuous data mixing pipeline, and supports retrieval-augmented generation (RAG), synthetic memory, prompts Engineering and custom secondary development. Semantic memory processing.
 
 ![image](https://github.com/user-attachments/assets/2b9bf9d9-1f1e-45b3-9461-50323b4f7b7f)
 ![image](https://github.com/microsoft/kernel-memory/blob/main/docs/img/kernel-memory-lambda-architecture.png)
