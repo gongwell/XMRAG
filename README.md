@@ -70,7 +70,7 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 
 
 ## 三、声明
- 1、本项目绝不收费
+ 1、本项目主要出于教育目的方便开发人员快速进行测试，让学生党免费使用知识库，不再让科技高高在上，本项目不收费！！！！！！（不要相信任何咸鱼）
 
  2、技术与合作联系邮箱xiaohei@xinghanlab.com
  
