@@ -51,15 +51,13 @@ await memory.ImportDocumentAsync("meeting-transcript.docx");
 
 ###  Python
 
-> ```python
-> import requests
->
-> # Files to import
-> files = {
->           "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
->         }
->
-> response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
+ ```python
+# import requests
+  Files to import
+files = {
+           "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
+         }
+response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
 
 
 
