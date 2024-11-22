@@ -10,7 +10,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
 
 ![GitHub issues](https://img.shields.io/github/issues/user/repo) ![GitHub stars](https://img.shields.io/github/stars/user/repo) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![KM](https://img.shields.io/badge/KM-FFD700?style=flat&logo=book&logoColor=white) ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) ![Free](https://img.shields.io/badge/License-Free-brightgreen)
 
-## 1. Explanation of various responsibilities and usage requirements
+##  Explanation of various responsibilities and usage requirements
 
 1. For users, we have achieved data isolation, whether it is uploaded data or conversation data, but not including data backup, so do not use this interface in a production environment.
 2. For interface use, we do not recommend that you lend or open your key to other platforms. Note that the key cannot be reset.
@@ -19,7 +19,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
 5. During the use process, I hope everyone will extract more opinions, and I also hope that everyone will tell us in time to recycle the account when it is not used for a long time.
 6. The platform only provides an enabling interface, which requires front-end projects to support or carry out front-end development.
 
-## 2. Instructions
+##  Instructions
 
 1. First log in to the registration website [http://cq.ath.cx:8888/](http://cq.ath.cx:8888/)
 2. [For interface description, please refer to the document](https://github.com/gongwell/XMRAG/blob/main/APi-EN.md)
@@ -69,7 +69,7 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 ```
 
 
-## 三、声明
+## Declaration
 1. This project is free of charge
 
 2. This project was developed and computing services were provided by Chongqing Exmand Technology Co., Ltd.
@@ -77,4 +77,12 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 
  ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
 
+
+## Contributors
+<div style="text-align: center;">
+    <img src="https://github.com/azgy.png" alt="azgy's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/zsbgnw12.png" alt="zsbgnw12's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/zshandong.png" alt="zshandong's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/googwell.png" alt="googwell's avatar" width="30" style="margin: 0 10px;" />
+</div>
  
