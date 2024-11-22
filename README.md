@@ -80,20 +80,8 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 
 ## 贡献
 <div style="text-align: center;">
-    <img src="https://github.com/azgy.png" alt="azgy's avatar" width="30" /><br />
-    @azgy
+    <img src="https://github.com/azgy.png" alt="azgy's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/zsbgnw12.png" alt="zsbgnw12's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/zshandong.png" alt="zshandong's avatar" width="30" style="margin: 0 10px;" />
+    <img src="https://github.com/googwell.png" alt="googwell's avatar" width="30" style="margin: 0 10px;" />
 </div>
-<div style="text-align: center;">
-    <img src="https://github.com/zsbgnw12.png" alt="zsbgnw12's avatar" width="30" /><br />
-    @zsbgnw12
-</div>
-<div style="text-align: center;">
-    <img src="https://github.com/zshandong.png" alt="zshandong's avatar" width="30" /><br />
-    @zshandong
-</div>
-<div style="text-align: center;">
-    <img src="https://github.com/googwell.png" alt="googwell's avatar" width="30" /><br />
-    @googwell
-</div>
-
- 
