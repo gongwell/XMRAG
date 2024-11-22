@@ -49,20 +49,15 @@ var memory = new MemoryWebClient("http://cq.ath.cx:8881/api/upload"); // <== URL
 await memory.ImportDocumentAsync("meeting-transcript.docx");
 
 
-###  Python
+Python
+import requests
 
- ```python
-# import requests
-  Files to import
+# Files to import
 files = {
-           "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
-         }
+    "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
+}
+
 response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
-
-
-
-
-
 
 
 
