@@ -39,6 +39,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
       [Generate API plugins from existing APIs for intelligent Microsoft 365 Copilot® projects](https://learn.microsoft.com/zh-cn/microsoft-365-copilot/extensibility/build-api-plugins-existing-api?tabs=toolkit)
 
    3. In SK projects
+      
        https://github.com/microsoft/kernel-memory/blob/main/examples/302-dotnet-sk-km-chat/Program.cs
 
 
