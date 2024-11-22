@@ -46,7 +46,7 @@
 var memory = new MemoryWebClient("http://cq.ath.cx:8881/api/upload"); // <== URL of KM web service
 
 // Import a file
-await memory.ImportDocumentAsync("meeting-transcript.docx");```
+await memory.ImportDocumentAsync("meeting-transcript.docx");‘’‘
 
 
 ```Python
@@ -57,7 +57,7 @@ files = {
     "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
 }
 
-response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)```
+response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)‘’‘
 
 
 
