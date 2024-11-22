@@ -11,7 +11,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/user/repo) ![GitHub stars](https://img.shields.io/github/stars/user/repo) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![KM](https://img.shields.io/badge/KM-FFD700?style=flat&logo=book&logoColor=white) ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) ![Free](https://img.shields.io/badge/License-Free-brightgreen)
 
 
-## 一、关于各种责任和使用要求说明
+## 关于各种责任和使用要求说明
 
 1. 对于用户，我们有做到数据隔离无论是上传数据和对话数据，但不包括数据备份，所以不要在生产环境下使用此接口。
 2. 对于接口使用，我们不建议你将自己的 key 外借或开放到其他平台，注意 key 无法重置。
@@ -20,7 +20,7 @@
 5. 在使用的过程中希望大家多多提取意见，也希望大家在长时间不使用的时候，及时告诉我们回收账户。
 6. 平台只提供赋能接口，需要有前端项目进行支持或进行前端开发。
 
-## 二、使用说明
+## 使用说明
 
 1. 首先登陆注册网址 [http://cq.ath.cx:8888/](http://cq.ath.cx:8888/)
 2. [接口说明请查看文档](https://github.com/gongwell/XMRAG/blob/main/%E6%8E%A5%E5%8F%A3%E4%BF%A1%E6%81%AF.md)
@@ -69,7 +69,7 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 ```
 
 
-## 三、声明
+## 声明
  1、本项目主要出于教育目的方便开发人员快速进行测试，让学生党免费使用知识库，不再让科技高高在上，本项目不收费！！！！！！（不要相信任何咸鱼）
 
  2、技术与合作联系邮箱xiaohei@xinghanlab.com
@@ -78,4 +78,9 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
  
  ![logo](https://github.com/user-attachments/assets/ff0ec800-9045-4d62-adf9-3d10a6fcd5b9)
 
+## 贡献
+@azgy 
+@zsbgnw12
+@zshandong
+@googwell
  
