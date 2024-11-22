@@ -15,7 +15,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
 1. For users, we have achieved data isolation, whether it is uploaded data or conversation data, but not including data backup, so do not use this interface in a production environment.
 2. For interface use, we do not recommend that you lend or open your key to other platforms. Note that the key cannot be reset.
 3. The uploaded data should not contain the following content: violence, hatred, sex and self-harm, anti-party and anti-government speech, and should not contain any form of feminist and LGBT content. RAI follows responsible AI.
-4. Regarding the number of conversations and the size of uploaded data, it is said that it cannot be adjusted. The project itself uses multiple Azure paid services such as Azure AI Search，Aoai-GPT4o，azure text-embedding-3-large，Azure Ai Documents, and Azure Blob, which will increase costs.
+4. Regarding the number of conversations and the size of uploaded data, it is said that it cannot be adjusted. The project itself uses multiple Azure paid services such as Azure AI Search，Aoai-GPT4o，azure text-embedding-3-large，Azure Ai Documents and Azure Blob, which will increase costs.
 5. During the use process, I hope everyone will extract more opinions, and I also hope that everyone will tell us in time to recycle the account when it is not used for a long time.
 6. The platform only provides an enabling interface, which requires front-end projects to support or carry out front-end development.
 
