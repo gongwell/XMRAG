@@ -6,7 +6,7 @@ This is a zero-development, zero-code, zero-construction, out-of-the-box service
 ![image](https://github.com/user-attachments/assets/2b9bf9d9-1f1e-45b3-9461-50323b4f7b7f)
 ![image](https://github.com/microsoft/kernel-memory/blob/main/docs/img/kernel-memory-lambda-architecture.png)
 
-For more detailed information about Km, please see [Microsoft Kernel Memory](https://microsoft.github.io/kernel-memory/)
+For more detailed information about Km, please see [Microsoft Kernel Memory](https://github.com/microsoft/kernel-memory)
 
 ![GitHub issues](https://img.shields.io/github/issues/user/repo) ![GitHub stars](https://img.shields.io/github/stars/user/repo) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![KM](https://img.shields.io/badge/KM-FFD700?style=flat&logo=book&logoColor=white) ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=flat&logo=microsoft&logoColor=white) ![Free](https://img.shields.io/badge/License-Free-brightgreen)
 
