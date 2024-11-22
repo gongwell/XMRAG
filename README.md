@@ -60,7 +60,6 @@ Python
 >         }
 >
 > response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
-> ```
 
 
 
