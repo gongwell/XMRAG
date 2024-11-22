@@ -70,7 +70,7 @@ response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=d
 
 
 ## Declaration
-1. This project is free of charge
+1. This project is mainly for educational purposes, allowing developers to quickly test and enabling students to use the knowledge base for free. We believe technology should not be out of reach! This project is free of charge!!!! 🎉📚🚀
 
 2. This project was developed and computing services were provided by Chongqing Exmand Technology Co., Ltd.
     [https://www.xmindai.cn/]
