@@ -1,10 +1,12 @@
 # 简介
-  这是一个开箱机即用的服务接口，满足个人对知识库的使用。此项目基于 Microsoft 的 kernel-memory，是一种多模态 AI 服务，专门用于通过自定义连续数据混合管道对数据集进行高效索引，并支持检索增强生成（RAG）、合成内存、提示工程和自定义语义内存处理上的二次开发。
+这是一个开箱即用的服务接口，满足个人对知识库的使用。此项目基于 Microsoft 的 kernel-memory，是一种多模态 AI 服务，专门用于通过自定义连续数据混合管道对数据集进行高效索引，并支持检索增强生成（RAG）、合成内存、提示工程和自定义语义内存处理上的二次开发。
 
 ![image](https://github.com/user-attachments/assets/2b9bf9d9-1f1e-45b3-9461-50323b4f7b7f)
 ![image](https://github.com/microsoft/kernel-memory/blob/main/docs/img/kernel-memory-lambda-architecture.png)
 
 关于更多 Km 的详细介绍请查看 [Microsoft Kernel Memory](https://microsoft.github.io/kernel-memory/)
+
+![GitHub issues](https://img.shields.io/github/issues/user/repo) ![GitHub stars](https://img.shields.io/github/stars/user/repo) ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 一、关于各种责任和使用要求说明
 
@@ -22,34 +24,30 @@
 3. 使用的示例
 
    一、在FastGPT中
-![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
+   ![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
    
-  ![屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
+   ![屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
 
-  ![屏幕截图 2024-11-21 231310](https://github.com/user-attachments/assets/797d4392-4e2b-40eb-b661-b77c4eb87dc5)
+   ![屏幕截图 2024-11-21 231310](https://github.com/user-attachments/assets/797d4392-4e2b-40eb-b661-b77c4eb87dc5)
 
-  ![251c1672f5578ff28558438f41cd93c](https://github.com/user-attachments/assets/80a43b3f-38fc-4f24-9ee8-6b2b3cb646a1)
-
+   ![251c1672f5578ff28558438f41cd93c](https://github.com/user-attachments/assets/80a43b3f-38fc-4f24-9ee8-6b2b3cb646a1)
 
    二、在Copilot中
 
-
    三、在SK项目中
 
-# 5. 代码示例
+## 5. 代码示例
 用户tag会和用户管道绑定，管道会在上传文件时随机产生。
 
- C#
-> ```csharp
-> #r "nuget: Microsoft.KernelMemory.WebClient"
->
-> var memory = new MemoryWebClient("http://cq.ath.cx:8881/api/upload"); // <== URL of KM web service
->
-> // Import a file
-> await memory.ImportDocumentAsync("meeting-transcript.docx");
->
->
-> ``
+### C#
+```csharp
+#r "nuget: Microsoft.KernelMemory.WebClient"
+
+var memory = new MemoryWebClient("http://cq.ath.cx:8881/api/upload"); // <== URL of KM web service
+
+// Import a file
+await memory.ImportDocumentAsync("meeting-transcript.docx");
+
 
 Python
 
