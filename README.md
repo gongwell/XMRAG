@@ -33,6 +33,7 @@
    ![251c1672f5578ff28558438f41cd93c](https://github.com/user-attachments/assets/80a43b3f-38fc-4f24-9ee8-6b2b3cb646a1)
 
    二、在Copilot中
+   
     [从现有 API 生成 api 插件，用于智能 Microsoft 365 Copilot 副驾驶®项目]（https://learn.microsoft.com/zh-cn/microsoft-365-copilot/extensibility/build-api-plugins-existing-api?tabs=toolkit）
 
    三、在SK项目中
