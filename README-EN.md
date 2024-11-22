@@ -25,7 +25,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
 2. [For interface description, please refer to the document](https://github.com/gongwell/XMRAG/blob/main/APi-EN.md)
 3. Example of use
 
-   1. In FastGPT
+   1. [In FastGPT](https://cloud.tryfastgpt.ai/app/list)
    ![屏幕截图 2024-11-21 231321](https://github.com/user-attachments/assets/1d655bed-6668-40f1-afe8-292257116a28)
 
    ![屏幕截图 2024-11-21 231242](https://github.com/user-attachments/assets/69fe3f94-95b2-4d89-ac88-7760cc0584c8)
