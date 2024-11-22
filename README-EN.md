@@ -22,7 +22,7 @@ For more detailed information about Km, please see [Microsoft Kernel Memory](htt
 ## 2. Instructions
 
 1. First log in to the registration website [http://cq.ath.cx:8888/](http://cq.ath.cx:8888/)
-2. [For interface description, please refer to the document](https://github.com/gongwell/XMRAG/blob/main/%E6%8E%A5%E5%8F%A3%E4%BF%A1%E6%81%AF.md)
+2. [For interface description, please refer to the document](https://github.com/gongwell/XMRAG/blob/main/APi-EN.md)
 3. Example of use
 
    1. In FastGPT
