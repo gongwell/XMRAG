@@ -2,50 +2,52 @@
 
 ## Introduction
 
-This project is built on the Django framework, primarily designed to interface with the Kernel search system and validate its APIs. After logging in, users can retrieve API keys and endpoints to perform actions such as file uploads and Kernel search functionalities.
+This project is based on the Django framework and is designed to interface with the Kernel search system for validation and interaction. After logging in, users can obtain API keys and endpoints to enable file uploads and Kernel search functionalities.
 
 ## Features
 
 - User registration, login, and account activation.
 - Password reset functionality.
 - Secure file uploads to the Kernel system.
-- API requests for authenticated searches in the Kernel system.
-- Daily conversation limits and user storage management.
+- API requests to perform authenticated searches on the Kernel system.
+- User-specific daily query limits and storage management.
 
 ## User Login
 
-The login page for the project is available at: http://cq.ath.cx:8888/.
-After logging in, users can obtain API keys and endpoints on the API page.
+The login portal is located at: http://cq.ath.cx:8888/.
+After logging in, users can retrieve their API keys and endpoint details from the API page.
 
 ## API Documentation
 
-### 1. API Endpoint
+### 1. API Overview
 
 **Endpoint**: `GET /api/`
-**Description**: Provides a list of all available API paths.
+**Description**: Lists all available API endpoints.
 
 ------
 
 ### 2. User Registration
 
 **Endpoint**: `POST /api/register/`
-**Description**: Registers a new user.
+**Description**: Register a new user account.
 
-**Request Parameters**:
+**Request Example**:
 
 ```
-json{
+bashcurl -X POST http://cq.ath.cx:8881/api/register \
+-H "Content-Type: application/json" \
+-d '{
     "username": "example_user",
     "password": "example_password",
     "email": "example@example.com"
-}
+}'
 ```
 
-**Example Response**:
+**Sample Response**:
 
 ```
 json{
-    "message": "Registration complete. Please check your email for activation."
+    "message": "Registration complete. Please activate your account via email."
 }
 ```
 
@@ -54,18 +56,20 @@ json{
 ### 3. User Login
 
 **Endpoint**: `POST /api/token/`
-**Description**: Logs in a user and retrieves a JWT token.
+**Description**: Log in to obtain a JWT token.
 
-**Request Parameters**:
+**Request Example**:
 
 ```
-json{
+bashcurl -X POST http://cq.ath.cx:8881/api/token/ \
+-H "Content-Type: application/json" \
+-d '{
     "username": "example_user",
     "password": "example_password"
-}
+}'
 ```
 
-**Example Response**:
+**Sample Response**:
 
 ```
 json{
@@ -79,31 +83,30 @@ json{
 ### 4. Kernel Search API
 
 **Endpoint**: `POST /api/ask`
-**Description**: Sends a query to the Kernel system using the user’s API key.
+**Description**: Send a query to the Kernel system using your API key.
 
-**Request Header**:
+**Request Headers**:
 
 ```
-makefile
-
-
-
-Authorization: Bearer <your_access_token>
+bashAuthorization: Bearer <your_access_token>
 ```
 
-**Request Parameters**:
+**Request Example**:
+
+```
+bashcurl -X POST http://cq.ath.cx:8881/api/ask \
+-H "Authorization: Bearer <your_access_token>" \
+-H "Content-Type: application/json" \
+-d '{
+    "question": "Your query"
+}'
+```
+
+**Sample Response**:
 
 ```
 json{
-    "question": "Your question"
-}
-```
-
-**Example Response**:
-
-```
-json{
-    "answer": "The response"
+    "answer": "The search result"
 }
 ```
 
@@ -112,21 +115,18 @@ json{
 ### 5. File Upload API
 
 **Endpoint**: `POST /api/upload`
-**Description**: Uploads a file to the Kernel system. The maximum file size is 10MB.
+**Description**: Upload files to the Kernel system (maximum file size: 10MB).
 
-**Request Header**:
+**Request Example**:
 
 ```
-makefile
-
-
-
-Authorization: Bearer <your_access_token>
+bashcurl -X POST http://cq.ath.cx:8881/api/upload \
+-H "Authorization: Bearer <your_access_token>" \
+-H "Content-Type: multipart/form-data" \
+-F "file_uploaded=@path/to/your/file"
 ```
 
-**Request Parameters**: Upload the file via `form-data` with the field name `file_uploaded`.
-
-**Example Response**:
+**Sample Response**:
 
 ```
 json{
@@ -143,19 +143,17 @@ json{
 ### 6. File Deletion API
 
 **Endpoint**: `DELETE /api/deleteUploads/`
-**Description**: Deletes all files uploaded by the current user.
+**Description**: Delete all files uploaded by the current user.
 
-**Request Header**:
+**Request Example**:
 
 ```
-makefile
-
-
-
-Authorization: Bearer <your_access_token>
+bashcurl -X DELETE http://cq.ath.cx:8881/api/deleteUploads/ \
+-H "Authorization: Bearer <your_access_token>" \
+-H "Content-Type: application/json"
 ```
 
-**Example Response**:
+**Sample Response**:
 
 ```
 json{
