@@ -50,7 +50,7 @@
 ```csharp
 #r "nuget: Microsoft.KernelMemory.WebClient"
 
-var memory = new MemoryWebClient("http://cq.ath.cx:8881/api/upload"); // <== URL of KM web service
+var memory = new MemoryWebClient("http://20.247.44.131:8000/api/upload"); // <== URL of KM web service
 
 // Import a file
 await memory.ImportDocumentAsync("meeting-transcript.docx");
@@ -65,7 +65,7 @@ files = {
     "file1": ("business-plan.docx", open("business-plan.docx", "rb")),
 }
 
-response = requests.post("http://cq.ath.cx:8881/api/upload", files=files, data=data)
+response = requests.post("http://20.247.44.131:8000/api/upload", files=files, data=data)
 ```
 
 
