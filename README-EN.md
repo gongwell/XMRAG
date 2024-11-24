@@ -21,7 +21,7 @@ This is a zero-development, zero-code, zero-construction, out-of-the-box service
 
 ##  Instructions
 
-1. First log in to the registration website [http://20.6.181.161/](http://20.6.181.161/) 100 conversations tomorrow, a 100MB knowledge base, support for images.
+1. First log in to the registration website [http://20.6.181.161/](http://20.6.181.161/) 
 2. [For interface description, please refer to the document](https://github.com/gongwell/XMRAG/blob/main/APi-EN.md)
 3. Example of use
 
