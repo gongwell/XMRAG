@@ -14,7 +14,7 @@ This project is based on the Django framework and is designed to interface with 
 
 ## User Login
 
-The login portal is located at: http://cq.ath.cx:8888/.
+The login portal is located at: http://20.247.44.131:8000/.
 After logging in, users can retrieve their API keys and endpoint details from the API page.
 
 ## API Documentation
@@ -34,7 +34,7 @@ After logging in, users can retrieve their API keys and endpoint details from th
 **Request Example**:
 
 ```
-bashcurl -X POST http://cq.ath.cx:8881/api/register \
+bashcurl -X POST http://20.247.44.131:8000/api/register \
 -H "Content-Type: application/json" \
 -d '{
     "username": "example_user",
@@ -61,7 +61,7 @@ json{
 **Request Example**:
 
 ```
-bashcurl -X POST http://cq.ath.cx:8881/api/token/ \
+bashcurl -X POST http://20.247.44.131:8000/api/token/ \
 -H "Content-Type: application/json" \
 -d '{
     "username": "example_user",
@@ -94,7 +94,7 @@ bashAuthorization: Bearer <your_access_token>
 **Request Example**:
 
 ```
-bashcurl -X POST http://cq.ath.cx:8881/api/ask \
+bashcurl -X POST http://20.247.44.131:8000/api/ask \
 -H "Authorization: Bearer <your_access_token>" \
 -H "Content-Type: application/json" \
 -d '{
@@ -120,7 +120,7 @@ json{
 **Request Example**:
 
 ```
-bashcurl -X POST http://cq.ath.cx:8881/api/upload \
+bashcurl -X POST http://20.247.44.131:8000/api/upload \
 -H "Authorization: Bearer <your_access_token>" \
 -H "Content-Type: multipart/form-data" \
 -F "file_uploaded=@path/to/your/file"
@@ -148,7 +148,7 @@ json{
 **Request Example**:
 
 ```
-bashcurl -X DELETE http://cq.ath.cx:8881/api/deleteUploads/ \
+bashcurl -X DELETE http://20.247.44.131:8000/api/deleteUploads/ \
 -H "Authorization: Bearer <your_access_token>" \
 -H "Content-Type: application/json"
 ```
