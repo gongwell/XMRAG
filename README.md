@@ -43,6 +43,14 @@
 
    https://github.com/microsoft/kernel-memory/blob/main/examples/302-dotnet-sk-km-chat/Program.cs
 
+   四、[在ChatXMRAG中](http://4.192.75.136/)
+   ![屏幕截图 2024-11-27 003254](https://github.com/user-attachments/assets/539220a2-0345-45ea-b290-80f8c1776ef7)
+
+   注意URL
+
+   ![屏幕截图 2024-11-27 003359](https://github.com/user-attachments/assets/e17544b5-ec11-4f6b-b23d-19b6aa3c4756)
+
+
 ## 5. 代码示例
 用户tag会和用户管道绑定，管道会在上传文件时随机产生。
 
