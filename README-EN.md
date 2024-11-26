@@ -41,7 +41,7 @@ This is a zero-development, zero-code, zero-construction, out-of-the-box service
    3. In SK projects
       
        https://github.com/microsoft/kernel-memory/blob/main/examples/302-dotnet-sk-km-chat/Program.cs
-   4. In ChatXMRAG
+   4. [In ChatXMRAG](http://4.192.75.136/)
       
       ![屏幕截图 2024-11-27 003254](https://github.com/user-attachments/assets/26d21280-b078-4fe7-9c1b-4dc7120cfc65)
        no /
